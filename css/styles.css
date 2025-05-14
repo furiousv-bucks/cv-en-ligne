@@ -1,1 +1,11 @@
 
+body {
+  background: #f8f9fa;
+  font-family: 'Segoe UI', sans-serif;
+}
+h3 { color: #0d6efd; }
+  
+  /* La directive @media en CSS sert à appliquer des styles spécifiques selon les caractéristiques du périphérique */
+  /* Ici, la taille de la police est reduite si l'ecran est inferieur a 768 pixel */
+@media (max-width: 768px)
+{}  h2, h3 { font-size: 1.2rem; }
